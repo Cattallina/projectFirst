@@ -1,27 +1,31 @@
 "use string";
 
-// const str = "test";
-// const arr = [1, 2, 3];
-//
-// console.log(str[2]);
+// let x = 5;
+// console.log(x++); //-- 5
 
-// const logg = "Hello, world!";
-// console.log(logg.slice(6, 12));
+//[] + false - null + true //-- 1
 
-// const test = "12.3px";
-// console.log(parseInt(test))
+// let y = 1;
+// let x = y = 2;
+// console.log(x); -- 2
 
-// const arr = [1, 77, 2, 641, 48];
-//
-// arr.sort(comareNum);
-// console.log(arr);
-//
-// function comareNum(a, b) {
-//     return a - b;
-// }
+// let x = [] + 1 + 2;
+// console.log(x)
 
+//console.log('1'[0]);
 
-// const str = prompt("", "");
-// const products = str.split(", ");
-// products.sort();
-// console.log(products.join('; '));
+// let x = 2 && 1 && null && 0 && undefined;
+// console.log(x) -- null
+
+// no
+
+//console.log(null || 2 && 3 || 4) -- 3
+
+// yes
+
+//console.log(+'Infinity') -- Infinity
+
+// console.log('Ёжик' > 'яблоко') -- false
+
+//console.log(0||''||2||undefined||true||false) -- 2
+
